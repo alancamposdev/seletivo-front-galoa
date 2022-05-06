@@ -1,23 +1,35 @@
 @import url("reset.css");
 @import url("variable.css");
 @import url("navigation.css");
+@import url("header.css");
+@import url();
+@import url("footer.css");
 
+html{
+  font-size: 10px;
+}
 body{
   background: var(--bg-color);
   font-family: 'Roboto', sans-serif;
-  font-size: 10px;
+  
 }
 
-#header,#main,#footer{
+#content,#main{
   border: 2px solid gray;
 }
 
 .container{
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-areas:
   'nav header header'
   'nav content content'  
   'nav footer footer';
+
+  grid-template-columns: 220px auto;
+  grid-template-rows: 68px auto 181px;;
+  
 }
 #nav{
   grid-area: nav;
