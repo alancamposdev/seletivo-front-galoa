@@ -1,86 +1,89 @@
-#header{
+#header {
   height: 6.8rem;
-  background-color:#FDF1EB;
-  color: #725C5C; 
-  padding: .3rem 3rem; 
-  font-family: Roboto,sans-serif;
-  font-weight: 400;  
+  background-color: #fdf1eb;
+  color: #725c5c;
+  padding: 0.3rem 3rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  
 }
-.header__content{
+
+.header__text {
   height: 100%;
   width: 100%;
-  flex:2 1;
+  flex: 2 1;
 }
-.header__content :nth-child(1){  
-  font-size:14px;
-  line-height:16px;
+
+.header__text :nth-child(1) {
+  font-size: 14px;
+  line-height: 16px;
 }
-.header__content :nth-child(2){ 
-  font-size:18px;
+
+.header__text :nth-child(2) {
+  font-size: 18px;
   line-height: 26px;
 }
-.header__content :nth-child(3){ 
-  font-size:14px;
-  line-height:16px;
+
+.header__text :nth-child(3) {
+  font-size: 14px;
+  line-height: 16px;
 }
-.header__btn-lang, .btn-lang i{
-  display:flex;  
+
+.header__btn-lang,
+.btn-lang i {
+  display: flex;
   align-items: center;
-  background-color: #FDF1EB;
+  background-color: #fdf1eb;
   border-radius: 3px;
   border: 1px solid #ccc;
   padding: 0 5px;
   height: 34px;
 }
-.header__login{
-  flex:1;
+
+.header__logged {
+  flex: 1;
   display: flex;
-  align-items: center;  
-  margin-left: 3rem;  
+  align-items: center;
+  margin-left: 3rem;
   text-align: left;
   font-size: 1.4rem;
 }
-.header__login .welcome{
+
+.header__logged .welcome {
   text-align: right;
-  
 }
-.container-avatar{
+
+.header__logged .container-avatar {
   position: relative;
 }
-.container-avatar::before{
+
+.header__logged .container-avatar::after {
   position: absolute;
-  content: "2";  
+  content: "2";
   top: -5px;
   right: 0px;
   background: red;
-  color:#fff;
-  font-weight: bold;  
+  color: #fff;
+  font-weight: bold;
   width: 15px;
   height: 15px;
   line-height: 15px;
   text-align: center;
   border-radius: 50%;
-  
 }
-.header__login .avatar{  
-  display: inline-block;  
+
+.header__logged .avatar {
+  display: inline-block;
   border-radius: 50%;
   width: 48px;
   height: 40px;
   margin-left: 1rem;
-  
-  
 }
 
-@media (max-width:900px){
-  #header{
+@media (max-width: 900px) {
+  #header {
     height: auto;
   }
 }
-
-

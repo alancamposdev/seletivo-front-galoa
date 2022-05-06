@@ -2,8 +2,13 @@
 @import url("variable.css");
 @import url("navigation.css");
 @import url("header.css");
-@import url();
+@import url("content.css");
+@import url("article.css");
+@import url("summary.css");
+@import url("discussions.css");
 @import url("footer.css");
+
+
 
 html{
   font-size: 10px;
@@ -11,14 +16,13 @@ html{
 body{
   background: var(--bg-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
   
 }
 
-#content,#main{
-  border: 2px solid gray;
-}
 
-.container{
+
+.container-grid{
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -27,13 +31,13 @@ body{
   'nav content content'  
   'nav footer footer';
 
-  grid-template-columns: 220px auto;
-  grid-template-rows: 68px auto 181px;;
+  grid-template-columns: 220px auto auto;
+  
   
 }
 #nav{
   grid-area: nav;
-  height: 100vh;
+  height: 100%;
   width: 220px;
 }
 #header{
@@ -44,4 +48,20 @@ body{
 }
 #footer{
   grid-area: footer;
+}
+
+@media (max-width:600px){
+  .container-grid{
+   
+    grid-template-areas:
+    'nav header'
+    'nav content'  
+    'footer footer';
+  
+    grid-template-columns: 220px auto;   
+    
+  }
+  .details{
+    display: none;
+  }
 }
