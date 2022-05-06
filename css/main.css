@@ -1,0 +1,35 @@
+@import url("reset.css");
+@import url("variable.css");
+@import url("navigation.css");
+
+body{
+  background: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+#header,#main,#footer{
+  border: 2px solid gray;
+}
+
+.container{
+  display: grid;
+  grid-template-areas:
+  'nav header header'
+  'nav content content'  
+  'nav footer footer';
+}
+#nav{
+  grid-area: nav;
+  height: 100vh;
+  width: 220px;
+}
+#header{
+  grid-area: header;
+}
+#content{
+  grid-area: content;
+}
+#footer{
+  grid-area: footer;
+}
