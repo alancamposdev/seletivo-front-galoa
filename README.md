@@ -2,7 +2,7 @@
 
 [>> chuva.net.br << ](https://chuva.net.br/)
 
-### Processo de seletivo
+### Processo seletivo
 Etapa 2 - exercício
 
 ### O projeto
