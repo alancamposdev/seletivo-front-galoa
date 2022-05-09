@@ -2,14 +2,14 @@
   border-top: 3px solid #ccc;
   padding: 3rem;
   display: flex;
-  align-items: center; 
-  font-family: 'Oswald', sans-serif;
+  align-items: center;  
+  font-family: var(--font-oswald);
 }
 .footer__left{
 flex: 1;
 }
 .footer__left span{
-  color: #341947;
+  color:var(--corRoxaDestaque);
   font-size: 8rem;
   font-weight:600;
   line-height: 1px;
@@ -35,18 +35,18 @@ flex: 1;
   content: "";
   right: 20px;
   top:13px;  
-  background: #71478E;
+  background: var(--corRoxa);;
   width: 20px;
   height: 2px;
 }
 .footer__left a{
   display: block;
   text-transform: capitalize;
-  color: white;
+  color: var(--corFundoConteudo);
   font-size: 1.5rem;
   font-weight: lighter;
   text-align: center;
-  background:#71478E;
+  background:var(--corRoxa);
   border-radius: 6px;
   width: 100%;
   padding: 9px;
@@ -56,7 +56,7 @@ flex: 4;
 padding:0 3rem;
 font-size: 1.6rem;
 line-height: 2rem;
-color: #675F62;
+color: var(--corTexto);
 }
 .footer__right p{
   margin-bottom: 1rem;

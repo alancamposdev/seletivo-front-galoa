@@ -1,7 +1,7 @@
 #header {
   height: 6.8rem;
-  background-color: #fdf1eb;
-  color: #725c5c;
+  background-color: var(--corFundoTitulo);
+  color: var(--corTitulo);
   padding: 0.3rem 3rem;
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -65,7 +65,7 @@
   top: -5px;
   right: 0px;
   background: red;
-  color: #fff;
+  color: var(--corFundoConteudo);
   font-weight: bold;
   width: 15px;
   height: 15px;

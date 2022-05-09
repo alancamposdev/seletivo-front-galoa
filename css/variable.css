@@ -1,16 +1,23 @@
-/*-->>colors<<--*/
-:root{
-  --bg-color:#fff;
-  --bg-primary: linear-gradient(#FFB455, #ED7839);
-  --color-gray:#675F62;
-  --secondary: #FDF1EB;
-  --color-main: #ED7839;
+/*-->>Paleta de cores<<--*/
+:root {
+  --corFundoDestaque: linear-gradient(#FFB455, #ED7839);
+  --corFundoConteudo: #FFF;
+  --corFundoTitulo: #FDF1EB;
+  --corTitulo: #4E4E4E;
+  --corFundoHover: ;
+  --corTexto: #725C5C;
 
-}
-/*--->>Fonts<<---*/
-:root{
-  --font-roboto:'Roboto', sans-serif;
-  --font-quicksand:'Quicksand', sans-serif;
-  --font-oswald:'Oswald', sans-serif;
+  --corTextoDestaque: #ED7839;
+  --corTextoHover: ;
+  --corSombra: rgba(0, 0, 0, 0.25);
+  --corBorda: #ECECEC;
+
+  --corRoxa: #71478E;
+  --corRoxaDestaque: #341947;
+
+  /*--->>Fontes<<---*/
+  --font-roboto: 'Roboto', sans-serif;
+  --font-quicksand: 'Quicksand', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
   --font-segoe: 'Segoe UI';
 }

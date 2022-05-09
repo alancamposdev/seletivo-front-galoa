@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>  
+
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +15,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Quicksand:wght@500&family=Roboto:&display=swap" rel="stylesheet">  
-  <!--Style -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Quicksand:wght@500&family=Roboto:&display=swap"
+    rel="stylesheet">
+  <!--Style-->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <div class="container-grid">
+    <!--Sidenav-->
     <nav id="nav">
       <a href="">
-        <h1>SLACA 2019</h1>
-      </a>      
-      <div class="nav_logo">        
-        <img src="img/dewey.png" alt="logo do evento">
-      </div>
+        <h1>Slaca 2019</h1>      
+        <div class="nav__logo">
+          <img src="img/dewey.png" alt="logo do evento">
+        </div>
+      </a>
       <ul class="menu">
         <li><a href="">Apresentação</a></li>
         <li><a href="">Comitês</a></li>
@@ -36,9 +40,8 @@
         <li><a href="">Trabalhos</a></li>
         <li><a href="">Contato</a></li>
       </ul>
-
     </nav>
-
+    <!--Cabeçalho-->
     <header id="header">
       <div class="header__text">
         <p>Anais do Simpósio Latino Americano de Ciências de Alimentos </p>
@@ -46,96 +49,134 @@
         <p>ISSN: 1234-5678</p>
       </div>
       <button class="header__btn-lang">
-        <i><img src="img/language image.png" alt=""></i>
+        <i><img src="img/icons/language image.png" alt="icone"></i>
         PT,BR
-        <i><img src="img/dropdown.png" alt=""></i>
+        <i><img src="img/icons/dropdown.png" alt="icone"></i>
       </button>
       <div class="header__logged">
         <div class="welcome">
           <p>Bem vindo!</p>
           <p>alguem12@galoascience.com</p>
-        </div> 
+        </div>
         <div class="container-avatar">
           <img class="avatar" src="img/avatar.png" alt="avatar">
-        </div>       
-        
+        </div>
       </div>
     </header>
 
+    <!--Conteúdo principal-->
     <main id="content">
+      <!--Postagem-->
       <article class="post">
-        <div class="post__title">
-          <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
-          
-          <div class="buttons">
-            <button class="btn-down">Download</button>
-            <button class="btn-fav"></button>
-            <button class="btn-doi"></button>
-          </div>
-          <a href="">como citar esse trabalho?</a>         
 
+        <div class="post__title">
+          <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município
+            de
+            Campinas/SP </h2>
+          <div class="post__title-right">
+            <div class="post__buttons">
+              <button class="btn btn-down">
+                <img src="img/icons/dowload.png" alt="icone de dowload">
+                Download</button>
+              <button class="btn btn-fav">
+                <img src="img/icons/star.svg" alt="icone de favorito">
+              </button>
+              <button class="btn btn-doi">
+                <img src="img/icons/doi.svg" alt="icone doi">
+              </button>
+            </div>
+            <div>
+              <a href="">como citar esse trabalho?</a>
+            </div>
+
+          </div>
         </div>
-      
+
+
         <div class="container__video">
-          <video " poster="img/poster.png" width="783" height="439" controls>
-            <source src="video/chuva.mp4" type="video/mp4"></source>
-            
+          <video " poster=" img/poster.png" width="auto" height="439" controls>
+            <source src="video/chuva.mp4" type="video/mp4">
+            </source>
+
             Sem suporte para esse navegador.
           </video>
-          
+
           <div class="details">
-            <h3 class="sub-title">Detalhes</h3>
-            <div class="details-content">
+            <h3 class="details__subtitle">Detalhes</h3>
+            <div class="details__content">
               Tipo de Apresentação: <b>Pôster</b>
-              Eixo temático: <b> Alimentação e saúde (AS) </b>         
+              Eixo temático: <b> Alimentação e saúde (AS) </b>
               Palavras-chaves: <b>Alimentos funcionais, alimentação escolar.</b>
-             <blockquote>
-              <h4>Autores:</h4> 
-              <cite>Galileo Galilei¹</cite>
-              <cite>Berta Lange de Morretes²</cite>
-              <cite>Isaac Newton³</cite>
-              <cite>Cesar Lattes¹</cite>
-              <cite>Stephen Hawking⁴</cite>  
-             </blockquote>                     
-            
-             <address>
-              ¹Universidade Estadual de Campinas
-              ²Universidade de São Paulo
-              ³Instituto Nacional de Pesquisas Espaciais
-              ⁴Universidade Federal do Rio de Janeiro
-             </address>
-         
+              <blockquote>
+                <h4>Autores:</h4>
+                <cite>Galileo Galilei¹</cite>
+                <cite>Berta Lange de Morretes²</cite>
+                <cite>Isaac Newton³</cite>
+                <cite>Cesar Lattes¹</cite>
+                <cite>Stephen Hawking⁴</cite>
+              </blockquote>
+
+              <address>
+                ¹Universidade Estadual de Campinas
+                ²Universidade de São Paulo
+                ³Instituto Nacional de Pesquisas Espaciais
+                ⁴Universidade Federal do Rio de Janeiro
+              </address>
+
             </div>
           </div>
-        </div>         
-      </article>      
+        </div>
+      </article>
 
-      <section class="summary">        
-        <h3 class="sub-title">Resumo</h3>       
+      <!--Seção de resumo-->
+      <section class="summary">
+        <h3 class="sub-title">Resumo</h3>
         <div>
-          
-          <p>            
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant</p>       
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut,
+            commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed
+            magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi
+            tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem.
+            Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus
+            condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in
+            sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit
+            ametl accumsant</p>
           <details>
             <summary><span>...ver mais</span></summary>
-          
-          
-          <p>
-            Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.
-          </p>
-          <p>
-            Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.
 
-          </p>
-          <p>
-            Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          </p>
-          </details>        
+            <p>
+              Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin
+              dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales
+              id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam
+              finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean
+              interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in
+              laoreet odio.
+            </p>
+            <p>
+              Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec
+              eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus
+              maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis.
+              Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur
+              non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque
+              orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id
+              odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu
+              maximus massa.
 
-        </div>       
+            </p>
+            <p>
+              Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut
+              hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus
+              dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem.
+              Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat
+              vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </details>
 
+        </div>
       </section>
 
+      <!--Seção de discussões-->
       <section class="discussions">
         <h3 class="sub-title">Discussões</h3>
         <div class="discussions__content">
@@ -146,14 +187,15 @@
             <img src="img/icons/i3.png" alt="icons">
           </div>
           <p>
-            Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!
+            Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
+            questionamentos ou sugestões para o autor!
           </p>
 
           <hr>
-          
+
           <button class="btn">
             <img src="img/icons/mais.svg" alt="icone de mais tópicos">
-    
+
             criar tópico
           </button>
 
@@ -161,38 +203,44 @@
             <h4 class="card-title">Assunto da pergunta aparece aqui</h4>
             <p class="card-subtitle">Carlos Henrique Santos</p>
             <div class="card-text">
-              Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+              Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de
+              processo formativo situado impacto de processo formativo processo...
             </div>
             <footer class="card-footer">
-              <img src="img/icons/card-footer.png" alt="">
+              <img src="img/icons/card-footer.png" alt="imagem de rodapé">
             </footer>
           </div>
           <div class="card">
             <h4 class="card-title">Assunto da pergunta aparece aqui</h4>
             <p class="card-subtitle">Carlos Henrique Santos</p>
             <div class="card-text">
-              Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+              Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de
+              processo formativo situado impacto de processo formativo processo...
             </div>
             <footer class="card-footer">
-              <img src="img/icons/card-footer.png" alt="">
+              <img src="img/icons/card-footer.png" alt="imagem de rodapé">
             </footer>
           </div>
         </div>
       </section>
     </main>
 
-    <footer id="footer">     
+    <!--Rodapé-->
+    <footer id="footer">
       <div class="footer__left">
         <span>Galoá</span>
-        <p>anais e proceedings</p> 
+        <p>anais e proceedings</p>
         <a href="">saiba mais</a>
       </div>
       <div class="footer__right">
-        <p><strong>Preservar a memória de evento e ampliar o acesso ao conhecimento científico</strong> gerado em eventos é a razão de ser da plataforma Galoá Proceedings.</p>
-        <p>Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade científica, mantendo acesso o debate científico fomentado pelos encontros e aumentando o impacto do evento.</p>
+        <p><strong>Preservar a memória de evento e ampliar o acesso ao conhecimento científico</strong> gerado em
+          eventos é a razão de ser da plataforma Galoá Proceedings.</p>
+        <p>Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade científica,
+          mantendo acesso o debate científico fomentado pelos encontros e aumentando o impacto do evento.</p>
       </div>
     </footer>
   </div>
-  
+
 </body>
+
 </html>

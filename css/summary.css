@@ -2,15 +2,15 @@
   font-family: var(--font-quicksand);
   font-style: normal;
   font-weight: 400;
-  color: var(--color-gray);
+  color: var(--corTitulo);
   border: 1px solid rgba(128, 128, 128, 0.116);
   margin-bottom: 3rem;
   
 }
 .sub-title{
   font-size: 1.4rem;
-  background: var(--secondary);
-  border: 1px solid #ECECEC;
+  background: var(--corFundoTitulo);
+  border: 1px solid var(--corBorda);
   border-radius: 3px 3px 0px 0px;
   padding: 1rem 1rem;
 }
@@ -25,6 +25,6 @@
   text-align: right;
 }
 .summary details span{
-  color: #ED7839;  
+  color: var(--corTextoDestaque);  
 
 }

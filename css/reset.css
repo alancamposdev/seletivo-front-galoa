@@ -1,13 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-ul,li{
+
+ul,
+li {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }

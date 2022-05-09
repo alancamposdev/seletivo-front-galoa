@@ -1,6 +1,6 @@
 .discussions{
   font-family: var(--font-quicksand);
-  border: 1px solid rgba(128, 128, 128, 0.082);
+  border: 1px solid var(--corBorda);
   padding: 1rem;
 }
 .discussions__content{
@@ -16,25 +16,28 @@
 }
 .discussions__icons{
  padding: 2rem;
+ display: flex;
+ gap: 3rem;
 }
 .discussions__content > p{   
- color: var(--color-gray);
+ color: var(--corTexto);
  padding-bottom: 3rem;
- border-bottom: 2px solid rgba(128, 128, 128, 0.082);
+ border-bottom: 2px solid var(--corBorda);
  
  
 
 }
 
 .discussions__content .btn{
- position: relative;
-  top: -20px;
-  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
-  color: #fff;
+  position: relative;
+  top: -20px; 
+  background: var(--corFundoDestaque);
+  color: var(--corFundoConteudo);
   padding: 1rem;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
   display: flex; 
   place-items: center;
   gap: 1rem;
@@ -43,7 +46,7 @@
 }
 /*cards*/
 .discussions .card{
-  box-shadow: 0 0 2px lightgray;
+  box-shadow: 0 0 8px var(--corSombra);
   width: 100%;
   height: auto;
   padding: 1.5rem;
